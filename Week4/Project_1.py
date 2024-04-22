@@ -1,7 +1,3 @@
-
-info = ["Name    | ", "Age    | ", "Height    | ", "Score    | "]
-
-
 name = ["NAME", "Evelyn", "Jessica", "Somto", "Edith", "Liza", "Madonna", "Waje", "Tola", "Aisha", "Latifa"]
 age = ["AGE", "17", "16", "17", "18", "16", "18", "17", "20", "19", "17"]
 height = ["HEIGHT", "5.5", "6.0", "5.4", "5.9", "5.6", "5.5", "6.1", "6.0", "5.7", "5.5"]
@@ -12,7 +8,7 @@ boys_age = ["AGE", "19", "16", "18", "17", "20", "19", "16", "18", "17", "19"]
 boys_height = ["HEIGHT", "5.7", "5.9", "5.8", "6.1", "5.9", "5.5", "6.1", "5.4", "5.8", "5.7"]
 boys_scores = ["SCORE", "74", "87", "75", "68", "66", "78", "87", "98", "54", "60"]
 
-def teams(name, age, height, scores):
+def teams(x, y, z, a):
     for i in range(11):
      print(f"\t{name[i]}\t  |{age[i]} \t|{height[i]}\t |{scores[i]}")
 
